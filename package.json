@@ -1,0 +1,28 @@
+{
+  "name": "node-styles-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "render.js",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node ./render.js",
+    "postbuild": "prettier --write ./styles/**/*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayperryworks/node-style-generator.git"
+  },
+  "author": "Jay Perry Works",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jayperryworks/node-style-generator/issues"
+  },
+  "homepage": "https://github.com/jayperryworks/node-style-generator#readme",
+  "devDependencies": {
+    "modularscale-js": "^3.0.1",
+    "prettier": "^2.6.2",
+    "url": "^0.11.0"
+  }
+}
